@@ -55,3 +55,140 @@ body {
 
 
 
+/* 4. DESKTOP  RESPONSIVE */
+
+header {
+    width: 100%;
+    position: relative;
+    height: 170vh;
+    padding: 40px;
+    background: url("../img/Rectangle\ 1441.png");
+    background-size: cover;
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.bg-transparente {
+    background: transparent;
+}
+
+header nav .logo {
+
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+header nav .logo:hover {
+
+    color: var(--white-color);
+    transform: scale(1.2);
+    transition: .5s;
+
+}
+
+#navbarNav li a {
+
+    color: var(--white-color);
+    font-size: var(--fs-text);
+    margin: 0 15px;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    transition: .5s;
+
+}
+
+#navbarNav li a:hover {
+
+    border-bottom: 1px solid var(--white-color);
+
+}
+
+header .bag-button {
+
+    background: transparent;
+    border: none;
+    color: var(--white-color);
+    font-size: 30px;
+    position: relative;
+
+}
+
+header .bag-button .counter-products {
+
+    width: 26px;
+    height: 26px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: var(--fs-text);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+
+}
+
+#hero {
+
+    width: 100%;
+    text-align: center;
+    padding: 90px 200px;
+
+}
+
+#hero h2 {
+
+    font-size: var(--fs-title1);
+    font-weight: 700;
+    color: var(--white-color);
+
+}
+
+#hero p {
+
+    color: var(--white-color);
+    font-size: var(--fs-title3);
+    padding: 40px 250px;
+
+}
+
+#hero form {
+
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#hero form input {
+
+    border-radius: 40px;
+    padding: 15px 60px 15px 20px;
+    width: 370px;
+    font-size: var(--fs-title4);
+    border: 2px solid var(--white-color);
+    background: #ffffff2b;
+    color: var(--white-color);
+    outline: none;
+
+}
+
+#hero form input::placeholder {
+    color: var(--white-color);
+}
+
+
+#hero form button {
+
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    color: var(--white-color);
+    position: absolute;
+    right: 6%;
+    top: 18%;
+
+}
