@@ -1006,8 +1006,8 @@ footer .footer-bottom a:hover {
     }
 
     /*Experiences*/
-    #reviews .slick-slider{
-        
+    #reviews .card-review .cont-infos{
+        box-shadow: 0 4px 8px 0 #00000049;
     }
 
     
@@ -1032,8 +1032,8 @@ footer .footer-bottom a:hover {
     /*Icono de menu desplegable*/
 
     header .navbar-toggler-icon {
-        width: 1.5em;
-        height: 1.5em;
+        width: 1.0em;
+        height: 1.0em;
         background-image: url("../img/menu2.png");
     }
 
@@ -1044,26 +1044,93 @@ footer .footer-bottom a:hover {
     
     .navbar-toggler:focus{
         box-shadow: 0 0 0 0 transparent;
+        background: #ffffff28;
     }
     .navbar-toggler:hover{
         box-shadow: 0 0 0 0 transparent;
     }
 
+    header{
+        height: 140vh;
+    }
     
     /*Hero*/
     #hero{
-        padding: 70px 100px;
+        padding: 70px 20px;
     }
     #hero h2 {
-        font-size: 50px;
+        font-size:30px;
     }
     #hero p{
-        padding: 80px 20px;
+        padding: 80px 10px;
+        font-size: 16px;
+    }
+    #hero form{
+        width: 200px;
+    }
+    #hero form input{
+        width: 200px;
+        font-size: 14px;
+    }
+    #hero form button{
+        top: 15%;
+        right: 3%;
+    }
+
+    /*Choosing-us*/
+    #choosing-us{
+        padding: 120px 20px;
+    }
+    #choosing-us h2{
+        font-size: 30px;
+    }
+    #choosing-us h3{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    #choosing-us p{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    #choosing-us a{
+        font-size: 16px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    /*Products*/
+
+    #products h2{
+        font-size: 30px;
+    }    
+    #products ul{
+        width: 320px;
+    }
+    #products li button.nav-link{
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+    #products .cont-info h3{
+        font-size: 18px;
+    }
+    #products .slick-list{
+        padding: 120px 0 50px;
+    }
+    #products ul.slick-dots{
+        width: 200px;
+        padding: 10px 10px;
+        margin-left: 6em;
     }
 
     /*Experiences*/
+    #experiences{
+        overflow-x: hidden;
+    }
     #experiences .cont-img{
         width: 100%;
+    }
+    #experiences .cont-img img{
+        width: 70%;
     }
     #experiences .cont-img::after{
         width: 0;
@@ -1091,32 +1158,54 @@ footer .footer-bottom a:hover {
         padding: 30px 80px 0 0;
         margin-top: 30px;
     }
+    #experiences .cont-info h3{
+        font-size: 16px;
+    }
     #experiences .cont-info h2{
         width: 100%;
-        padding: 0 0 0 6em;
+        padding: 0 0 0 1em;
+        font-size: 30px;
     }
     #experiences .cont-info p{
         width: 100%;
-        padding: 0 0 0 8em;
+        padding: 0 0 0 2em;
+        font-size: 16px;
+    }
+    #experiences .cont-info a{
+        font-size: 16px;
     }
 
     /*Scroll horizontal, Materials*/
     #materials{
         padding: 0 0;
+        overflow-x: hidden;
     }
     #materials .info{
         width: 100%;
     }
     #materials .info h2{
+        font-size: 18px;
+    }
+    #materials .info h2{
         width: 100%;
-        padding: 0 6em 0 0;
+        padding: 0 1em 0 0;
+        font-size: 30px;
     }
     #materials .info p{
         width: 100%;
-        padding: 0 6em 0 0;
+        padding: 0 2em 0 0;
+        font-size: 16px;
     }
     #materials .info h3{
         padding-top: 80px;
+    }
+    #materials .imagenes img{
+        width: 50%;
+    }
+    #materials .imagen-2 img{
+        width: 80%;
+        bottom: 350px;
+        left: 130px;
     }
     #materials .imagen-2::before{
     width: 0;
@@ -1127,6 +1216,20 @@ footer .footer-bottom a:hover {
     bottom: 0;
     right: 0;
     border-radius: 20px;
+    }
+
+    /*Reviews*/
+    #reviews{
+        padding: 0 0 170px;
+    }
+    #reviews h3{
+        font-size: 18px;
+        padding-top: 0;
+    }
+
+    /*Experiences*/
+    #reviews .card-review .cont-infos{
+        box-shadow: 0 4px 8px 0 #00000049;
     }
 
 

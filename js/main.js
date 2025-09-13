@@ -18,7 +18,9 @@ $(document).ready(function () {
             {
                 breakpoint: 576, // móviles
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    arrows: false,   // quitamos flechas para que no estorben en pantallas pequeñas
+                    dots: true 
                 }
             }
         ]
@@ -40,7 +42,7 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
         responsive: [
             {
-                breakpoint: 992, // tablets y pantallas medianas
+                breakpoint: 1200, // tablets y pantallas medianas
                 settings: {
                     slidesToShow: 1 // en tablet se muestran 2
                 }
