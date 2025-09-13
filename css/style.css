@@ -256,3 +256,185 @@ header .bag-button .counter-products {
     margin-left: 15px;
 
 }
+
+
+/* SECTION PRODUCTS */
+
+
+#products {
+
+    width: 100%;
+    position: relative;
+    background: var(--gray-color);
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+#products h2 {
+
+    font-size: var(--fs-title2);
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 40px;
+
+}
+
+#products ul {
+
+    width: 420px;
+    margin: 0 auto;
+    background: #eeeeee;
+    padding: 8px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#products li button {
+
+    color: var(--dark-color);
+    padding: 10px 30px;
+    border: none;
+
+}
+
+#products li button:hover {
+
+    border: none;
+
+}
+
+#products li button.active {
+
+    background: var(--white-color);
+    border-radius: 30px;
+    border: none;
+
+
+}
+
+
+
+#products .card-product {
+
+    margin: 0 15px !important;
+
+
+}
+
+#products .card-product .cont-img {
+
+    background: #e6e6e6;
+    position: relative;
+    width: 100%;
+    min-height: 220px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+#products .cont-img img {
+
+    width: 220px;
+    position: absolute;
+    top: -70px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+}
+
+#products .slick-list {
+
+    padding: 160px 0;
+
+}
+
+
+#products .cont-info {
+
+    background: var(--gray-color);
+    text-align: left;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+#products .cont-info p.category {
+
+    font-size: var(--fs-text);
+    color: #8d8d8d;
+
+}
+
+#products .cont-info h3 {
+
+    font-size: var(--fs-title3);
+    font-weight: 700;
+    color: #0D1B39;
+
+}
+
+
+#products .stars i {
+
+    color: #F6973F;
+
+}
+
+#products .stars {
+
+    margin-bottom: 30px;
+
+}
+
+#products .card-product h4 {
+
+    font-size: var(--fs-title3);
+    font-weight: 600;
+    display: flex;
+    margin: 0;
+
+}
+
+#products .card-product h4 span {
+
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 600;
+
+}
+
+#products .card-product button {
+
+    background: #0D1B39;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: var(--white-color);
+    border: none;
+    font-size: 25px;
+
+
+}
+
+
+#products .slick-arrow {
+
+    background: var(--white-color);
+    border: 1px solid #dbdada;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    border-radius: 50%;
+
+}
+
+#products .slick-arrow::before {
+
+    color: #0D1B39;
+
+}
+
+
