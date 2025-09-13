@@ -196,7 +196,7 @@ header .bag-button .counter-products {
 
 
 
-/* ESTILOS MAIN */
+/* Estilos main */
 
 
 /*Estilos section choosing-us*/
@@ -258,7 +258,7 @@ header .bag-button .counter-products {
 }
 
 
-/* SECTION PRODUCTS */
+/* Estilos section products */
 
 
 #products {
@@ -440,7 +440,7 @@ header .bag-button .counter-products {
 
 
 
-/* SECCION EXPERIENCES */
+/* Estilos section experiences */
 
 
 #experiences {
@@ -552,7 +552,7 @@ header .bag-button .counter-products {
 
 
 
-/* SECCION  MATERIALS */
+/* Estilos section materials */
 
 
 #materials {
@@ -658,6 +658,140 @@ header .bag-button .counter-products {
 
 
 
+
+/* Estilos section reviews */
+
+
+#reviews {
+
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    text-align: center;
+
+}
+
+
+#reviews h3 {
+
+    color: var(--primary-color);
+    font-size: var(--fs-title4);
+    text-transform: uppercase;
+    padding-top: 170px;
+    letter-spacing: 2px;
+
+}
+
+#reviews h2 {
+    font-weight: 700;
+    font-size: var(--fs-title2);
+    color: var(--dark-color);
+    margin-bottom: 65px;
+    padding-top: 25px;
+    text-transform: capitalize;
+}
+
+
+#reviews .card-review {
+
+    position: relative;
+
+}
+
+#reviews .card-review .cont-infos {
+
+    background: var(--white-color);
+    position: absolute;
+    width: 79%;
+    bottom: 20px;
+    border-radius: 30px;
+    left: 10%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+
+
+}
+
+
+#reviews .card-review .cont-infos img {
+
+    position: absolute;
+    top: -35px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border: 10px solid var(--white-color);
+    border-radius: 50%;
+}
+
+#reviews .card-review .cont-infos h4 {
+
+    font-size: var(--fs-title4);
+    color: var(--dark-color);
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+
+#reviews .card-review .cont-infos h5 {
+
+    font-size: 12px;
+    color: var(--dark-color);
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 300;
+
+}
+
+#reviews .card-review .stars i {
+
+    color: #F6973F;
+
+}
+
+#reviews .card-review .stars i:nth-child(5) {
+
+    opacity: 0.5;
+
+}
+
+
+#reviews .slick-slide {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#reviews .card-review .cont-infos p {
+
+    color: var(--dark-color);
+    font-size: 14px;
+}
+
+
+#reviews .slick-arrow {
+
+    background: var(--white-color);
+    border: 1px solid #dbdada;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    z-index: 999;
+    border-radius: 50%;
+    color: #0D1B39;
+    position: absolute;
+
+
+}
+
+#reviews .slick-arrow::before {
+
+    color: #0D1B39;
+
+}
 
 
 
