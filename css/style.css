@@ -794,5 +794,110 @@ header .bag-button .counter-products {
 }
 
 
+/* Estilos del Footer */
+
+
+
+footer {
+    width: 100%;
+    background: #f7f7f7;
+    position: relative;
+}
+
+footer .info {
+    padding: 80px 50px;
+}
+
+footer .logo {
+    font-size: 28px;
+    color: var(--dark-color);
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #555;
+    font-size: 15px;
+    margin: 0;
+    padding-right: 30px;
+}
+
+footer h3 {
+    color: #f77f00;
+    /* naranja */
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .col-footer a {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+footer .col-footer a:hover {
+    color: #f77f00;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: var(--dark-color);
+    margin-top: -12px;
+}
+
+footer .footer-bottom {
+    border-top: 1px solid transparent;
+    /* para dar separación */
+    padding-top: 80px;
+    font-size: 14px;
+}
+
+footer .copy {
+    color: #888;
+}
+
+footer .footer-bottom a {
+    color: var(--dark-color);
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+footer .footer-bottom a:hover {
+    color: #f77f00;
+}
+
+
+
+
+/* 5. TABLET  RESPONSIVE*/
+@media screen and (min-width:768px) and (max-width: 100px) {}
+
+/* 6. SMARTPHONE RESPONSIVE*/
+
+
+@media screen and (min-width:320px) and (max-width: 767px) {}
+
+
 
 
