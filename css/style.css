@@ -438,3 +438,114 @@ header .bag-button .counter-products {
 }
 
 
+
+
+/* SECCION EXPERIENCES */
+
+
+#experiences {
+
+    width: 100%;
+    position: relative;
+    padding: 140px 0;
+
+}
+
+
+#experiences .cont-img {
+
+    position: relative;
+    left: -20px;
+
+}
+
+#experiences .cont-img img {
+
+    box-shadow: -15px 16px 15px -10px #af7d43;
+
+}
+
+#experiences .cont-img::before {
+
+    content: "";
+    width: 400px;
+    height: 400px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+    border-radius: 20px;
+
+}
+
+
+#experiences .cont-img::after {
+
+    content: "";
+    width: 300px;
+    height: 300px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    right: 85px;
+    top: 70px;
+    border-radius: 20px;
+
+
+}
+
+#experiences .cont-info {
+
+    padding: 20px 60px 0 0;
+
+}
+
+#experiences .cont-info h3 {
+
+    color: var(--primary-color);
+    font-size: var(--fs-title4);
+    text-transform: uppercase;
+
+}
+
+#experiences .cont-info h2 {
+
+    color: #1e1e1e;
+    font-size: var(--fs-title2);
+    font-weight: 700;
+    width: 480px;
+    margin-top: 20px;
+
+}
+
+#experiences .cont-info p {
+
+    color: var(--dark-color);
+    font-size: var(--fs-text);
+    width: 520px;
+    margin-top: 20px;
+
+}
+
+#experiences .cont-info a {
+
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+
+
+#experiences .cont-info i {
+
+    margin-left: 4px;
+    transition: .5s;
+
+}
+
+#experiences .cont-info a:hover i {
+
+    margin-left: 15px;
+
+}
+
+
