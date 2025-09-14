@@ -1102,6 +1102,7 @@ footer .footer-bottom a:hover {
 
     #products h2{
         font-size: 30px;
+        margin-bottom: 20px;
     }    
     #products ul{
         width: 320px;
@@ -1114,12 +1115,13 @@ footer .footer-bottom a:hover {
         font-size: 18px;
     }
     #products .slick-list{
-        padding: 120px 0 50px;
+        padding: 120px 0 10px;
     }
     #products ul.slick-dots{
         width: 200px;
         padding: 10px 10px;
         margin-left: 6em;
+        background: transparent;
     }
 
     /*Experiences*/
@@ -1155,7 +1157,7 @@ footer .footer-bottom a:hover {
     #experiences .cont-info{
         width: 100%;
         text-align: right;
-        padding: 30px 80px 0 0;
+        padding: 30px 60px 0 0;
         margin-top: 30px;
     }
     #experiences .cont-info h3{

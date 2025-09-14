@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon2.png" type="image/x-icon">
@@ -23,7 +24,7 @@
     <header>
 
 
-        <nav class="navbar navbar-expand-lg bg-transparente">
+        <nav class="navbar navbar-expand-lg bg-transparente" data-aos="zoom-out-down"data-aos-duration="2000">
             <div class="container">
 
                 <a class="navbar-brand logo" href="#hero">Panto</a>
@@ -81,7 +82,7 @@
                 </div>
             </div>
 
-            <form action="#">
+            <form action="#" data-aos="zoom-in-up"data-aos-duration="1000">
 
                 <input type="text" placeholder="Search furniture">
                 <button><i class="bi bi-search"></i></button>
@@ -107,20 +108,20 @@
                     <div class="col-lg-3 col-md-6">
                         <h2>Why <br> Choosing Us</h2>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                         <h3>Luxury facilities</h3>
                         <p>The advantage of hiring a workspace with us is that givees you comfortable service and
                             all-around facilities.</p>
                         <a href="#">More Infos <i class="bi bi-arrow-right"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1500" >
                         <h3>Affordable Price</h3>
                         <p>You can get a workspace of the highst quality at an affordable price and still enjoy the
                             facilities that are oly here.</p>
                         <a href="#">More Info <i class="bi bi-arrow-right"></i></a>
 
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="2000" >
                         <h3>Many Choices</h3>
                         <p>We provide many unique work space choices so that you can choose the workspace to your
                             liking.</p>
@@ -140,7 +141,7 @@
         <section id="products">
             <div class="container">
                 <div class="row">
-                    <h2>Best Selling Product</h2>
+                    <h2 data-aos="fade-down" data-aos-duration="1000" >Best Selling Product</h2>
 
 
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1068,7 +1069,12 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 
