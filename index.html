@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PANTO</title>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- Slick CSS (estilos del carrusel) -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon2.png" type="image/x-icon">
@@ -24,7 +25,7 @@
     <header>
 
 
-        <nav class="navbar navbar-expand-lg bg-transparente" data-aos="zoom-out-down"data-aos-duration="2000">
+        <nav class="navbar navbar-expand-lg bg-transparente" data-aos="zoom-out-down" data-aos-duration="2000">
             <div class="container">
 
                 <a class="navbar-brand logo" href="#hero">Panto</a>
@@ -37,19 +38,22 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#materials">Furniture</a>
+                            <a class="nav-link" href="#choosing-us">My Choosing Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#products">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#choosing-us">About Us</a>
+                            <a class="nav-link" href="#experiences">Experiences</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#footer">Contact</a>
+                            <a class="nav-link" href="#materials">Materials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Testimonials</a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +69,7 @@
         <div id="hero">
 
 
-            <div id="carouselHeroSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselHeroSlidesOnly" data-aos="fade-down" data-aos-duration="2000" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <h2>Make Your Interior More Minimalistic & Modern</h2>
@@ -82,7 +86,7 @@
                 </div>
             </div>
 
-            <form action="#" data-aos="zoom-in-up"data-aos-duration="1000">
+            <form action="#" data-aos="fade-up" data-aos-duration="3000">
 
                 <input type="text" placeholder="Search furniture">
                 <button><i class="bi bi-search"></i></button>
@@ -105,23 +109,23 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <h2>Why <br> Choosing Us</h2>
                     </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
+                    <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" >
                         <h3>Luxury facilities</h3>
                         <p>The advantage of hiring a workspace with us is that givees you comfortable service and
                             all-around facilities.</p>
                         <a href="#">More Infos <i class="bi bi-arrow-right"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1500" >
+                    <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-delay="600"  data-aos-duration="1000" >
                         <h3>Affordable Price</h3>
                         <p>You can get a workspace of the highst quality at an affordable price and still enjoy the
                             facilities that are oly here.</p>
                         <a href="#">More Info <i class="bi bi-arrow-right"></i></a>
 
                     </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="2000" >
+                    <div class="col-lg-3 col-md-6" data-aos="fade-down" data-aos-delay="900"  data-aos-duration="1000" >
                         <h3>Many Choices</h3>
                         <p>We provide many unique work space choices so that you can choose the workspace to your
                             liking.</p>
@@ -141,7 +145,7 @@
         <section id="products">
             <div class="container">
                 <div class="row">
-                    <h2 data-aos="fade-down" data-aos-duration="1000" >Best Selling Product</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="1000" >Best Selling Product</h2>
 
 
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1057,24 +1061,19 @@
         </div>
     </footer>
 
-
-
+    <!-- AOS Animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- jQuery (necesario para Slick) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Slick JS (funcionalidad del carrusel) -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-
-    
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        AOS.init();
+        crossorigin="anonymous">
     </script>
+
+    <script src="js/main.js"></script>
 
 
 
